@@ -39,7 +39,7 @@
         public string Extension { get; set; } = SqlServerPackagerRunner.SqlExtension;
 
         /// <summary>
-        /// Gets or sets excluded commits
+        /// Gets or sets excluded commits.
         /// </summary>
         public string[] ExcludedChagesets { get; set; } = new string[0];
     }
