@@ -3,7 +3,7 @@
   <metadata>
     <id>Cake.SqlServerPackager</id>
     <title>Cake.SqlServerPackager</title>
-    <version>0.1.1</version>
+    <version>0.1.2</version>
     <authors>Ilya Verbitskiy</authors>
     <owners>Ilya Verbitskiy</owners>
     <description>Cake AddIn that packages multiple SQL Scripts into one file to speed up deployment and minimize the probability of errors.</description>
