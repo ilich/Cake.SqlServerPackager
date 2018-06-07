@@ -3,30 +3,29 @@
   <metadata>
     <id>Cake.SqlServerPackager</id>
     <title>Cake.SqlServerPackager</title>
-    <version>0.1.2</version>
+    <version>0.1.3</version>
     <authors>Ilya Verbitskiy</authors>
     <owners>Ilya Verbitskiy</owners>
     <description>Cake AddIn that packages multiple SQL Scripts into one file to speed up deployment and minimize the probability of errors.</description>
     <licenseUrl>https://github.com/ilich/Cake.SqlServerPackager/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/ilich/Cake.SqlServerPackager</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/cake-contrib/graphics/a5cf0f881c390650144b2243ae551d5b9f836196/png/cake-contrib-medium.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <copyright>Copyright © 2016 Ilya Verbitskiy</copyright>
+    <copyright>Copyright © 2018 Ilya Verbitskiy</copyright>
     <tags>Cake Script Git Merge SQL</tags>
   </metadata>
   <files>
-    <file src="Cake.SqlServerPackager/bin/Release/Cake.SqlServerPackager.dll" />
-    <file src="Cake.SqlServerPackager/bin/Release/Cake.SqlServerPackager.dll.config" />
-    <file src="Cake.SqlServerPackager/bin/Release/Cake.SqlServerPackager.pdb" />
-    <file src="Cake.SqlServerPackager/bin/Release/Cake.SqlServerPackager.XML" />
-    <file src="Cake.SqlServerPackager/bin/Release/LibGit2Sharp.dll" />
-    <file src="Cake.SqlServerPackager/bin/Release/LibGit2Sharp.dll.config" />
-    <file src="Cake.SqlServerPackager/bin/Release/LibGit2Sharp.pdb" />
-    <file src="Cake.SqlServerPackager/bin/Release/LibGit2Sharp.xml" />
-    <file src="Cake.SqlServerPackager/bin/Release/lib/linux/x86_64/libgit2-baa87df.so" target="lib/linux/x86_64" />
-    <file src="Cake.SqlServerPackager/bin/Release/lib/osx/libgit2-baa87df.dylib" target="lib/osx" />
-    <file src="Cake.SqlServerPackager/bin/Release/lib/win32/x64/git2-baa87df.dll" target="lib/win32/x64" />
-    <file src="Cake.SqlServerPackager/bin/Release/lib/win32/x64/git2-baa87df.pdb" target="lib/win32/x64" />
-    <file src="Cake.SqlServerPackager/bin/Release/lib/win32/x86/git2-baa87df.dll" target="lib/win32/x86" />
-    <file src="Cake.SqlServerPackager/bin/Release/lib/win32/x86/git2-baa87df.pdb" target="lib/win32/x86" />
+    <file src="Cake.SqlServerPackager/bin/Release/Cake.SqlServerPackager.dll" target="lib/netstandard2.0" />
+    <file src="Cake.SqlServerPackager/bin/Release/Cake.SqlServerPackager.dll.config" target="lib/netstandard2.0" />
+    <file src="Cake.SqlServerPackager/bin/Release/Cake.SqlServerPackager.pdb" target="lib/netstandard2.0" />
+    <file src="Cake.SqlServerPackager/bin/Release/LibGit2Sharp.dll" target="lib/netstandard2.0" />
+    <file src="Cake.SqlServerPackager/bin/Release/LibGit2Sharp.dll.config" target="lib/netstandard2.0" />
+    <file src="Cake.SqlServerPackager/bin/Release/LibGit2Sharp.pdb" target="lib/netstandard2.0" />
+    <file src="Cake.SqlServerPackager/bin/Release/lib/linux/x86_64/libgit2-6311e88.so" target="lib/netstandard2.0/lib/linux/x86_64" />
+    <file src="Cake.SqlServerPackager/bin/Release/lib/osx/libgit2-6311e88.dylib" target="lib/netstandard2.0/lib/osx" />
+    <file src="Cake.SqlServerPackager/bin/Release/lib/win32/x64/git2-6311e88.dll" target="lib/netstandard2.0/lib/win32/x64" />
+    <file src="Cake.SqlServerPackager/bin/Release/lib/win32/x64/git2-6311e88.pdb" target="lib/netstandard2.0/lib/win32/x64" />
+    <file src="Cake.SqlServerPackager/bin/Release/lib/win32/x86/git2-6311e88.dll" target="lib/netstandard2.0/lib/win32/x86" />
+    <file src="Cake.SqlServerPackager/bin/Release/lib/win32/x86/git2-6311e88.pdb" target="lib/netstandard2.0/lib/win32/x86" />
   </files>
 </package>
