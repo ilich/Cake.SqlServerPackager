@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package>
   <metadata>
     <id>Cake.SqlServerPackager</id>
@@ -9,7 +9,7 @@
     <description>Cake AddIn that packages multiple SQL Scripts into one file to speed up deployment and minimize the probability of errors.</description>
     <licenseUrl>https://github.com/ilich/Cake.SqlServerPackager/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/ilich/Cake.SqlServerPackager</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/cake-contrib/graphics/a5cf0f881c390650144b2243ae551d5b9f836196/png/cake-contrib-medium.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/cake-contrib-medium.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <copyright>Copyright © 2018 Ilya Verbitskiy</copyright>
     <tags>Cake Script Git Merge SQL</tags>
